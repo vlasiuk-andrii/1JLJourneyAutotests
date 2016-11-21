@@ -13,18 +13,27 @@ import spock.lang.Specification
 
 class BaseSpec extends Specification {
 
-   public static Properties useProperties() {
+    public static String getProjectProperty(String propertyName) {
+        String property = "null"
+        Properties projectProperties = new Properties();
         FileInputStream input = new FileInputStream("gradle.properties");
-        Properties properties = new Properties();
-        properties.load(input);
-        return properties
+        projectProperties.load(input);
+
+        for (String propertyValue : projectProperties){
+            if(propertyValue.contains(propertyName)){
+                property = projectProperties[propertyName]
+            }
+        }
+        return property
     }
 
-    /*protected static final String WEB_SERVER = useProperties().getProperty("WEB_SERVER")
-    protected static final String BROWSER = useProperties().getProperty("BROWSER");*/
+    protected static final String WEB_SERVER = getProjectProperty('WEB_SERVER')
+    protected static final String BROWSER = getProjectProperty('BROWSER')
+    
 
-    protected static final String WEB_SERVER = System.getProperty("WEB_SERVER", "https://test.onejl.uk");
-    protected static final String BROWSER = System.getProperty("BROWSER", "firefox");
+    /***** this block will be used for passing variables via command line*****/
+   /* protected static final String WEB_SERVER = System.getProperty("WEB_SERVER", "https://test.onejl.uk");
+    protected static final String BROWSER = System.getProperty("BROWSER", "firefox");*/
 
     @Shared
     WebDriver driver;
@@ -33,7 +42,7 @@ class BaseSpec extends Specification {
         if (BROWSER.equals("firefox")) {
             driver = new FirefoxDriver();
         } else if (BROWSER.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
             driver = new ChromeDriver();
         } else if (BROWSER.equals("internetExplorer")) {
             DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
@@ -44,7 +53,7 @@ class BaseSpec extends Specification {
             ((DesiredCapabilities) caps).setJavascriptEnabled(true);
             ((DesiredCapabilities) caps).setCapability("takesScreenshot", true);
             ((DesiredCapabilities) caps).setCapability(
-                    PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, ".\\phantomjs.exe");
+                    PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "src\\test\\resources\\phantomjs.exe");
             driver = new  PhantomJSDriver(caps);
         } else {
             throw new RuntimeException("Browser type unsupported");

@@ -7,8 +7,8 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'groovy'
 
-repositories {
 
+repositories {
     mavenCentral()
 }
 
@@ -21,25 +21,18 @@ sourceSets {
     }
 }
 
-def String getProjectProperty(String propertyName){
-    String version = "null"
-    if (hasProperty(propertyName))
-        version = this.properties[propertyName]
-    return version
-}
-
 dependencies {
 
     //groovy
-    compile "org.codehaus.groovy:groovy-all:${getProjectProperty('groovyVersion')}"
+    compile "org.codehaus.groovy:groovy-all:${project.getProperties().get('groovyVersion')}"
 
     // selenium drivers
-    testCompile "org.seleniumhq.selenium:selenium-ie-driver:${getProjectProperty('seleniumVersion')}"
-    testCompile "org.seleniumhq.selenium:selenium-chrome-driver:${getProjectProperty('seleniumVersion')}"
-    testCompile "org.seleniumhq.selenium:selenium-firefox-driver:${getProjectProperty('seleniumVersion')}"
-    testCompile "org.seleniumhq.selenium:selenium-support:${getProjectProperty('seleniumVersion')}"
-    testRuntime "org.seleniumhq.selenium:selenium-support:${getProjectProperty('seleniumVersion')}"
-    testCompile "com.codeborne:phantomjsdriver:${getProjectProperty('phantomJsVersion')}"
+    testCompile "org.seleniumhq.selenium:selenium-ie-driver:${project.getProperties().get('seleniumVersion')}"
+    testCompile "org.seleniumhq.selenium:selenium-chrome-driver:${project.getProperties().get('seleniumVersion')}"
+    testCompile "org.seleniumhq.selenium:selenium-firefox-driver:${project.getProperties().get('seleniumVersion')}"
+    testCompile "org.seleniumhq.selenium:selenium-support:${project.getProperties().get('seleniumVersion')}"
+    testRuntime "org.seleniumhq.selenium:selenium-support:${project.getProperties().get('seleniumVersion')}"
+    testCompile "com.codeborne:phantomjsdriver:${project.getProperties().get('phantomJsVersion')}"
 
     // spock
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
@@ -53,17 +46,12 @@ dependencies {
     testCompile "junit:junit-dep:4.11"
 }
 
-ext {
-    WEB_SERVER = getProjectProperty('WEB_SERVER')
-    BROWSER = getProjectProperty('BROWSER')
-}
-
 tasks.withType(Test) {
     systemProperties = System.getProperties()
 }
 
 test {
-    println "See Spock report at ${reports.html.destination = getBuildDir().toURI().toString() + getProjectProperty('reportsDir')}"
+    println "See Spock report at ${reports.html.destination = getBuildDir().toURI().toString() + project.getProperties().get('reportsDir')}"
 }
 
 
