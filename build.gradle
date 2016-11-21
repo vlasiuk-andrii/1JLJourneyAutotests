@@ -1,0 +1,72 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+repositories {
+
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java.srcDir "src/main/groovy"
+    }
+    test {
+        java.srcDir "src/test/groovy"
+    }
+}
+
+def String getProjectProperty(String propertyName){
+    String version = "null"
+    if (hasProperty(propertyName))
+        version = this.properties[propertyName]
+    return version
+}
+
+dependencies {
+
+    //groovy
+    compile "org.codehaus.groovy:groovy-all:${getProjectProperty('groovyVersion')}"
+
+    // selenium drivers
+    testCompile "org.seleniumhq.selenium:selenium-ie-driver:${getProjectProperty('seleniumVersion')}"
+    testCompile "org.seleniumhq.selenium:selenium-chrome-driver:${getProjectProperty('seleniumVersion')}"
+    testCompile "org.seleniumhq.selenium:selenium-firefox-driver:${getProjectProperty('seleniumVersion')}"
+    testCompile "org.seleniumhq.selenium:selenium-support:${getProjectProperty('seleniumVersion')}"
+    testRuntime "org.seleniumhq.selenium:selenium-support:${getProjectProperty('seleniumVersion')}"
+    testCompile "com.codeborne:phantomjsdriver:${getProjectProperty('phantomJsVersion')}"
+
+    // spock
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+    testCompile( 'com.athaydes:spock-reports:1.2.13' ) {
+        transitive = false
+    }
+    testCompile 'org.slf4j:slf4j-api:1.7.13'
+    testCompile 'org.slf4j:slf4j-simple:1.7.13'
+
+    //junit
+    testCompile "junit:junit-dep:4.11"
+}
+
+ext {
+    WEB_SERVER = getProjectProperty('WEB_SERVER')
+    BROWSER = getProjectProperty('BROWSER')
+}
+
+tasks.withType(Test) {
+    systemProperties = System.getProperties()
+}
+
+test {
+    println "See Spock report at ${reports.html.destination = getBuildDir().toURI().toString() + getProjectProperty('reportsDir')}"
+}
+
+
+
+
+

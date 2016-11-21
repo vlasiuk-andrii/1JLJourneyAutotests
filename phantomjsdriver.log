@@ -1,0 +1,271 @@
+[INFO  - 2016-11-17T22:02:05.688Z] GhostDriver - Main - running on port 33916
+[INFO  - 2016-11-17T22:02:06.280Z] Session [7a816b10-ad11-11e6-9015-6351693a3a6c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:02:06.281Z] Session [7a816b10-ad11-11e6-9015-6351693a3a6c] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:02:06.351Z] Session [7a816b10-ad11-11e6-9015-6351693a3a6c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:02:06.351Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7a816b10-ad11-11e6-9015-6351693a3a6c
+[ERROR - 2016-11-17T22:02:09.210Z] Session [7a816b10-ad11-11e6-9015-6351693a3a6c] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:02:09.211Z] Session [7a816b10-ad11-11e6-9015-6351693a3a6c] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:02:11.110Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1479420131077
+[INFO  - 2016-11-17T22:02:12.309Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:02:20.292Z] GhostDriver - Main - running on port 37856
+[INFO  - 2016-11-17T22:02:21.027Z] Session [834b7ab0-ad11-11e6-9d6d-6ddb630c05ee] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:02:21.027Z] Session [834b7ab0-ad11-11e6-9d6d-6ddb630c05ee] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:02:21.028Z] Session [834b7ab0-ad11-11e6-9d6d-6ddb630c05ee] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:02:21.028Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 834b7ab0-ad11-11e6-9d6d-6ddb630c05ee
+[ERROR - 2016-11-17T22:02:23.438Z] Session [834b7ab0-ad11-11e6-9d6d-6ddb630c05ee] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:02:23.438Z] Session [834b7ab0-ad11-11e6-9d6d-6ddb630c05ee] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:02:27.446Z] Session [834b7ab0-ad11-11e6-9d6d-6ddb630c05ee] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:02:27.447Z] Session [834b7ab0-ad11-11e6-9d6d-6ddb630c05ee] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:02:27.447Z] Session [834b7ab0-ad11-11e6-9d6d-6ddb630c05ee] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:02:27.447Z] Session [834b7ab0-ad11-11e6-9d6d-6ddb630c05ee] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-17T22:02:34.686Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:09:42.578Z] GhostDriver - Main - running on port 37574
+[INFO  - 2016-11-17T22:09:43.345Z] Session [8aefd990-ad12-11e6-8140-0183400f612f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:09:43.345Z] Session [8aefd990-ad12-11e6-8140-0183400f612f] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:09:43.345Z] Session [8aefd990-ad12-11e6-8140-0183400f612f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:09:43.346Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8aefd990-ad12-11e6-8140-0183400f612f
+[ERROR - 2016-11-17T22:09:45.572Z] Session [8aefd990-ad12-11e6-8140-0183400f612f] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:09:45.572Z] Session [8aefd990-ad12-11e6-8140-0183400f612f] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[INFO  - 2016-11-17T22:09:49.672Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:09:57.895Z] GhostDriver - Main - running on port 33281
+[INFO  - 2016-11-17T22:09:58.561Z] Session [9401c7a0-ad12-11e6-b1e2-072d2ccde45f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:09:58.562Z] Session [9401c7a0-ad12-11e6-b1e2-072d2ccde45f] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:09:58.562Z] Session [9401c7a0-ad12-11e6-b1e2-072d2ccde45f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:09:58.562Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9401c7a0-ad12-11e6-b1e2-072d2ccde45f
+[ERROR - 2016-11-17T22:10:00.504Z] Session [9401c7a0-ad12-11e6-b1e2-072d2ccde45f] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:10:00.505Z] Session [9401c7a0-ad12-11e6-b1e2-072d2ccde45f] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[INFO  - 2016-11-17T22:10:04.461Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:10:51.611Z] GhostDriver - Main - running on port 14425
+[INFO  - 2016-11-17T22:10:52.316Z] Session [b40c2450-ad12-11e6-929b-7910b48ee1d9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:10:52.317Z] Session [b40c2450-ad12-11e6-929b-7910b48ee1d9] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:10:52.317Z] Session [b40c2450-ad12-11e6-929b-7910b48ee1d9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:10:52.317Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b40c2450-ad12-11e6-929b-7910b48ee1d9
+[ERROR - 2016-11-17T22:10:54.216Z] Session [b40c2450-ad12-11e6-929b-7910b48ee1d9] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:10:54.216Z] Session [b40c2450-ad12-11e6-929b-7910b48ee1d9] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:10:58.917Z] Session [b40c2450-ad12-11e6-929b-7910b48ee1d9] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:10:58.917Z] Session [b40c2450-ad12-11e6-929b-7910b48ee1d9] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:10:58.918Z] Session [b40c2450-ad12-11e6-929b-7910b48ee1d9] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:10:58.918Z] Session [b40c2450-ad12-11e6-929b-7910b48ee1d9] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:10:59.882Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1479420659841
+[INFO  - 2016-11-17T22:11:01.076Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:11:15.348Z] GhostDriver - Main - running on port 3843
+[INFO  - 2016-11-17T22:11:16.058Z] Session [c232bb20-ad12-11e6-a300-27317fc6d373] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:11:16.058Z] Session [c232bb20-ad12-11e6-a300-27317fc6d373] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:11:16.058Z] Session [c232bb20-ad12-11e6-a300-27317fc6d373] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:11:16.059Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c232bb20-ad12-11e6-a300-27317fc6d373
+[ERROR - 2016-11-17T22:11:18.012Z] Session [c232bb20-ad12-11e6-a300-27317fc6d373] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:11:18.013Z] Session [c232bb20-ad12-11e6-a300-27317fc6d373] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:11:22.400Z] Session [c232bb20-ad12-11e6-a300-27317fc6d373] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:11:22.401Z] Session [c232bb20-ad12-11e6-a300-27317fc6d373] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:11:22.401Z] Session [c232bb20-ad12-11e6-a300-27317fc6d373] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:11:22.401Z] Session [c232bb20-ad12-11e6-a300-27317fc6d373] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-17T22:11:29.291Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:15:34.399Z] GhostDriver - Main - running on port 9688
+[INFO  - 2016-11-17T22:15:34.875Z] Session [5c76c410-ad13-11e6-82b7-01298c957808] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:15:34.876Z] Session [5c76c410-ad13-11e6-82b7-01298c957808] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:15:34.876Z] Session [5c76c410-ad13-11e6-82b7-01298c957808] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:15:34.876Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5c76c410-ad13-11e6-82b7-01298c957808
+[ERROR - 2016-11-17T22:15:37.806Z] Session [5c76c410-ad13-11e6-82b7-01298c957808] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:15:37.806Z] Session [5c76c410-ad13-11e6-82b7-01298c957808] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:15:41.605Z] Session [5c76c410-ad13-11e6-82b7-01298c957808] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:15:41.605Z] Session [5c76c410-ad13-11e6-82b7-01298c957808] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:15:41.606Z] Session [5c76c410-ad13-11e6-82b7-01298c957808] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:15:41.606Z] Session [5c76c410-ad13-11e6-82b7-01298c957808] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:15:43.184Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1479420943134
+[INFO  - 2016-11-17T22:15:44.312Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:15:52.745Z] GhostDriver - Main - running on port 19413
+[INFO  - 2016-11-17T22:15:53.447Z] Session [67891600-ad13-11e6-a8e4-73e6011e1cc0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:15:53.448Z] Session [67891600-ad13-11e6-a8e4-73e6011e1cc0] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:15:53.448Z] Session [67891600-ad13-11e6-a8e4-73e6011e1cc0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:15:53.448Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 67891600-ad13-11e6-a8e4-73e6011e1cc0
+[ERROR - 2016-11-17T22:15:55.973Z] Session [67891600-ad13-11e6-a8e4-73e6011e1cc0] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:15:55.973Z] Session [67891600-ad13-11e6-a8e4-73e6011e1cc0] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:16:00.091Z] Session [67891600-ad13-11e6-a8e4-73e6011e1cc0] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:16:00.091Z] Session [67891600-ad13-11e6-a8e4-73e6011e1cc0] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:16:00.092Z] Session [67891600-ad13-11e6-a8e4-73e6011e1cc0] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:16:00.093Z] Session [67891600-ad13-11e6-a8e4-73e6011e1cc0] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-17T22:16:06.145Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:16:14.174Z] GhostDriver - Main - running on port 5034
+[INFO  - 2016-11-17T22:16:14.950Z] Session [745a2ef0-ad13-11e6-9266-ebfe886bd40a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:16:14.950Z] Session [745a2ef0-ad13-11e6-9266-ebfe886bd40a] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:16:14.951Z] Session [745a2ef0-ad13-11e6-9266-ebfe886bd40a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:16:14.951Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 745a2ef0-ad13-11e6-9266-ebfe886bd40a
+[ERROR - 2016-11-17T22:16:18.036Z] Session [745a2ef0-ad13-11e6-9266-ebfe886bd40a] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:16:18.036Z] Session [745a2ef0-ad13-11e6-9266-ebfe886bd40a] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:16:22.004Z] Session [745a2ef0-ad13-11e6-9266-ebfe886bd40a] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:16:22.005Z] Session [745a2ef0-ad13-11e6-9266-ebfe886bd40a] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:16:22.005Z] Session [745a2ef0-ad13-11e6-9266-ebfe886bd40a] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:16:22.006Z] Session [745a2ef0-ad13-11e6-9266-ebfe886bd40a] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-17T22:16:31.447Z] ShutdownReqHand - _handle - About to shutdown
+FO  - 2016-11-17T22:16:30.321Z] Session [7d82b240-ad13-11e6-995f-494f96fae456] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:16:30.321Z] Session [7d82b240-ad13-11e6-995f-494f96fae456] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:16:30.321Z] Session [7d82b240-ad13-11e6-995f-494f96fae456] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:16:30.322Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7d82b240-ad13-11e6-995f-494f96fae456
+[ERROR - 2016-11-17T22:16:33.996Z] Session [7d82b240-ad13-11e6-995f-494f96fae456] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:16:33.996Z] Session [7d82b240-ad13-11e6-995f-494f96fae456] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:16:37.995Z] Session [7d82b240-ad13-11e6-995f-494f96fae456] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:16:37.996Z] Session [7d82b240-ad13-11e6-995f-494f96fae456] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:16:37.997Z] Session [7d82b240-ad13-11e6-995f-494f96fae456] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:16:37.997Z] Session [7d82b240-ad13-11e6-995f-494f96fae456] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-17T22:16:46.925Z] ShutdownReqHand - _handle - About to shutdown
+,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:16:33.357Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7f521b10-ad13-11e6-8b32-0d09df113b81
+[ERROR - 2016-11-17T22:16:36.089Z] Session [7f521b10-ad13-11e6-8b32-0d09df113b81] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:16:36.089Z] Session [7f521b10-ad13-11e6-8b32-0d09df113b81] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:16:39.908Z] Session [7f521b10-ad13-11e6-8b32-0d09df113b81] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:16:39.908Z] Session [7f521b10-ad13-11e6-8b32-0d09df113b81] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:16:39.909Z] Session [7f521b10-ad13-11e6-8b32-0d09df113b81] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:16:39.909Z] Session [7f521b10-ad13-11e6-8b32-0d09df113b81] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:16:41.836Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1479421001788
+[INFO  - 2016-11-17T22:16:43.109Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:17:15.909Z] GhostDriver - Main - running on port 12350
+[INFO  - 2016-11-17T22:17:16.746Z] Session [992ebde0-ad13-11e6-ba64-7193633299ca] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:17:16.746Z] Session [992ebde0-ad13-11e6-ba64-7193633299ca] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:17:16.746Z] Session [992ebde0-ad13-11e6-ba64-7193633299ca] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:17:16.747Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 992ebde0-ad13-11e6-ba64-7193633299ca
+[ERROR - 2016-11-17T22:17:21.760Z] Session [992ebde0-ad13-11e6-ba64-7193633299ca] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:17:21.761Z] Session [992ebde0-ad13-11e6-ba64-7193633299ca] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:17:24.805Z] Session [992ebde0-ad13-11e6-ba64-7193633299ca] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:17:24.805Z] Session [992ebde0-ad13-11e6-ba64-7193633299ca] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:17:24.806Z] Session [992ebde0-ad13-11e6-ba64-7193633299ca] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:17:24.806Z] Session [992ebde0-ad13-11e6-ba64-7193633299ca] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:17:27.501Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1479421047451
+[INFO  - 2016-11-17T22:17:28.930Z] ShutdownReqHand - _handle - About to shutdown
+2:17:21.048Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9bbf05b0-ad13-11e6-9cf8-673384b7fe9e
+[ERROR - 2016-11-17T22:17:24.540Z] Session [9bbf05b0-ad13-11e6-9cf8-673384b7fe9e] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:17:24.541Z] Session [9bbf05b0-ad13-11e6-9cf8-673384b7fe9e] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:17:29.035Z] Session [9bbf05b0-ad13-11e6-9cf8-673384b7fe9e] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:17:29.035Z] Session [9bbf05b0-ad13-11e6-9cf8-673384b7fe9e] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:17:29.036Z] Session [9bbf05b0-ad13-11e6-9cf8-673384b7fe9e] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:17:29.036Z] Session [9bbf05b0-ad13-11e6-9cf8-673384b7fe9e] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-17T22:17:36.350Z] ShutdownReqHand - _handle - About to shutdown
+,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:17:24.456Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9dc70ab0-ad13-11e6-b5cf-dde80e60dd80
+[ERROR - 2016-11-17T22:17:28.802Z] Session [9dc70ab0-ad13-11e6-b5cf-dde80e60dd80] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:17:28.803Z] Session [9dc70ab0-ad13-11e6-b5cf-dde80e60dd80] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:17:31.762Z] Session [9dc70ab0-ad13-11e6-b5cf-dde80e60dd80] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:17:31.762Z] Session [9dc70ab0-ad13-11e6-b5cf-dde80e60dd80] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:17:31.763Z] Session [9dc70ab0-ad13-11e6-b5cf-dde80e60dd80] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:17:31.763Z] Session [9dc70ab0-ad13-11e6-b5cf-dde80e60dd80] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-17T22:17:38.357Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-17T22:17:47.137Z] GhostDriver - Main - running on port 37202
+[INFO  - 2016-11-17T22:17:47.767Z] Session [abacef00-ad13-11e6-8479-2d2adff49637] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-17T22:17:47.767Z] Session [abacef00-ad13-11e6-8479-2d2adff49637] - page.customHeaders:  - {}
+[INFO  - 2016-11-17T22:17:47.767Z] Session [abacef00-ad13-11e6-8479-2d2adff49637] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-17T22:17:47.768Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: abacef00-ad13-11e6-8479-2d2adff49637
+[ERROR - 2016-11-17T22:17:49.966Z] Session [abacef00-ad13-11e6-8479-2d2adff49637] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-17T22:17:49.966Z] Session [abacef00-ad13-11e6-8479-2d2adff49637] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-17T22:17:54.262Z] Session [abacef00-ad13-11e6-8479-2d2adff49637] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:17:54.263Z] Session [abacef00-ad13-11e6-8479-2d2adff49637] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-17T22:17:54.263Z] Session [abacef00-ad13-11e6-8479-2d2adff49637] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-17T22:17:54.263Z] Session [abacef00-ad13-11e6-8479-2d2adff49637] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-17T22:17:59.517Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-18T09:20:28.279Z] GhostDriver - Main - running on port 9975
+[INFO  - 2016-11-18T09:20:28.879Z] Session [3f24fd70-ad70-11e6-a1a7-adabf8bd11ef] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-18T09:20:28.880Z] Session [3f24fd70-ad70-11e6-a1a7-adabf8bd11ef] - page.customHeaders:  - {}
+[INFO  - 2016-11-18T09:20:28.880Z] Session [3f24fd70-ad70-11e6-a1a7-adabf8bd11ef] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-18T09:20:28.880Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3f24fd70-ad70-11e6-a1a7-adabf8bd11ef
+[ERROR - 2016-11-18T09:20:31.125Z] Session [3f24fd70-ad70-11e6-a1a7-adabf8bd11ef] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-18T09:20:31.126Z] Session [3f24fd70-ad70-11e6-a1a7-adabf8bd11ef] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-18T09:20:36.652Z] Session [3f24fd70-ad70-11e6-a1a7-adabf8bd11ef] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:20:36.652Z] Session [3f24fd70-ad70-11e6-a1a7-adabf8bd11ef] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-18T09:20:36.653Z] Session [3f24fd70-ad70-11e6-a1a7-adabf8bd11ef] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:20:36.653Z] Session [3f24fd70-ad70-11e6-a1a7-adabf8bd11ef] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-18T09:21:58.593Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1479460918569
+[INFO  - 2016-11-18T09:21:59.842Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-18T09:22:10.141Z] GhostDriver - Main - running on port 30953
+[INFO  - 2016-11-18T09:22:10.481Z] Session [7bb43990-ad70-11e6-9c15-b706a999dcb5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-18T09:22:10.481Z] Session [7bb43990-ad70-11e6-9c15-b706a999dcb5] - page.customHeaders:  - {}
+[INFO  - 2016-11-18T09:22:10.481Z] Session [7bb43990-ad70-11e6-9c15-b706a999dcb5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-18T09:22:10.481Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7bb43990-ad70-11e6-9c15-b706a999dcb5
+[ERROR - 2016-11-18T09:22:16.292Z] Session [7bb43990-ad70-11e6-9c15-b706a999dcb5] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-18T09:22:16.292Z] Session [7bb43990-ad70-11e6-9c15-b706a999dcb5] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-18T09:22:19.898Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1479460939874
+[ERROR - 2016-11-18T09:22:20.504Z] Session [7bb43990-ad70-11e6-9c15-b706a999dcb5] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:22:20.504Z] Session [7bb43990-ad70-11e6-9c15-b706a999dcb5] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-18T09:22:20.510Z] Session [7bb43990-ad70-11e6-9c15-b706a999dcb5] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:22:20.510Z] Session [7bb43990-ad70-11e6-9c15-b706a999dcb5] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-18T09:22:21.106Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-18T09:22:38.939Z] GhostDriver - Main - running on port 19740
+[INFO  - 2016-11-18T09:22:39.240Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-18T09:22:39.240Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.customHeaders:  - {}
+[INFO  - 2016-11-18T09:22:39.240Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-18T09:22:39.241Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8cd8a710-ad70-11e6-8a56-17f205a78b9e
+[ERROR - 2016-11-18T09:22:41.573Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-18T09:22:41.573Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-18T09:22:45.587Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:22:45.587Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-18T09:22:45.588Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:22:45.588Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-18T09:22:53.518Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1479460973486
+[ERROR - 2016-11-18T09:23:01.431Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:23:01.431Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-18T09:23:01.431Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:23:01.432Z] Session [8cd8a710-ad70-11e6-8a56-17f205a78b9e] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[INFO  - 2016-11-18T09:24:16.762Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-11-18T09:24:28.441Z] GhostDriver - Main - running on port 8299
+[INFO  - 2016-11-18T09:24:28.749Z] Session [ce1e6660-ad70-11e6-9cca-53759fbaef11] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-11-18T09:24:28.749Z] Session [ce1e6660-ad70-11e6-9cca-53759fbaef11] - page.customHeaders:  - {}
+[INFO  - 2016-11-18T09:24:28.750Z] Session [ce1e6660-ad70-11e6-9cca-53759fbaef11] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-11-18T09:24:28.750Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ce1e6660-ad70-11e6-9cca-53759fbaef11
+[ERROR - 2016-11-18T09:24:31.194Z] Session [ce1e6660-ad70-11e6-9cca-53759fbaef11] - page.onError - msg: ReferenceError: Can't find variable: ytcfg
+[ERROR - 2016-11-18T09:24:31.194Z] Session [ce1e6660-ad70-11e6-9cca-53759fbaef11] - page.onError - stack:
+  global code (https://www.youtube.com/embed/sr6lr_VRsEo:10)
+[ERROR - 2016-11-18T09:24:35.281Z] Session [ce1e6660-ad70-11e6-9cca-53759fbaef11] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:24:35.281Z] Session [ce1e6660-ad70-11e6-9cca-53759fbaef11] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-18T09:24:35.281Z] Session [ce1e6660-ad70-11e6-9cca-53759fbaef11] - page.onError - msg: Unhandled promise rejection [object Object]
+[ERROR - 2016-11-18T09:24:35.282Z] Session [ce1e6660-ad70-11e6-9cca-53759fbaef11] - page.onError - stack:
+  (anonymous function) (https://test.onejl.uk/assets/b7ebff9/js/app.bundle.js:7)
+[ERROR - 2016-11-18T09:24:38.885Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1479461078855
+[INFO  - 2016-11-18T09:24:42.342Z] ShutdownReqHand - _handle - About to shutdown
